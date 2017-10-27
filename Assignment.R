@@ -23,4 +23,17 @@ books.without.four <- my.books[-4]
 books.without.four
 long.titles <- ifelse(my.books>15, yes = "this book has more than fifteen characters", no = "no book over 15")
 long.titles
+# Part 3. Squares
+numbers <- seq(1,201)
+numbers
+squared.numbers <- numbers*numbers
+squared.numbers
+squared.mean <- mean(squared.numbers)
+squared.mean
+squares <- sqrt(numbers)
+squares
+answer <- round(squares)
+answer
+which(squares == answer, arr.ind = TRUE)
+
 
